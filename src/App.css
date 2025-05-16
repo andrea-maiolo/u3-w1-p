@@ -65,3 +65,25 @@ custom-footer {
   color: #838383;
   font-size: 0.6em;
 }
+
+/* css per pagina profilo */
+.logo-profilo {
+  height: 50px;
+}
+
+.editIcon {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-bg {
+  color: #fff;
+  background-color: #818181;
+}
+
+.my-color {
+  color: #818181;
+}
