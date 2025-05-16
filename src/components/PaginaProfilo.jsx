@@ -10,7 +10,7 @@ class PaginaProfilo extends Component {
         <div>
           <Image src={logo} className="logo-profilo position-absolute top-0 start-0" alt="netflix logo" />
         </div>
-        <Container fluid className="mt-5 w-50">
+        <Container fluid className="mt-5 col-6">
           <Row>
             <Col xs={12} className="text-white mb-1">
               <h1 className="fw-normal">Edit Profile</h1>
