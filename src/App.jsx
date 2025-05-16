@@ -1,14 +1,21 @@
+import { Container } from "react-bootstrap";
 import "./App.css";
+import FilterSearch from "./components/FilterSearch";
 import MoviesSection from "./components/MoviesSection";
 import MyNavbar from "./components/MyNavbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <MyNavbar />
-      <MoviesSection title="Trending Now" query="avengers" />
-      <MoviesSection title="Watch It Again" query="batman" />
-      <MoviesSection title="New Releases" query="star+wars" />
+      <Container fluid>
+        <FilterSearch />
+        <MoviesSection title="Trending Now" query="avengers" />
+        <MoviesSection title="Watch It Again" query="batman" />
+        <MoviesSection title="New Releases" query="star+wars" />
+        <Footer />
+      </Container>
     </>
   );
 }
