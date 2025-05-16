@@ -8,3 +8,8 @@ body {
 .custom-navbar {
   background-color: #221f1f;
 }
+
+.poster-img {
+  object-fit: cover;
+  height: 100px;
+}
