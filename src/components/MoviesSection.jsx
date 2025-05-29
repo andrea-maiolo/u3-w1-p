@@ -22,6 +22,7 @@ class MoviesSection extends Component {
       if (data.Response === "False") {
         this.setState({ errore: true });
         this.setState({ erroreMess: data.Error });
+        this.setState({ loaded: !this.state.loaded });
       } else {
         this.setState({ loaded: !this.state.loaded });
         this.setState({ movieArray: data.Search });
